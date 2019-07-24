@@ -174,7 +174,7 @@ hr.light-100 {
     padding: .2rem;
   }
   
-  .carousel-caption.btn {
+  .carousel-caption .btn {
     font-size: 95%;
     padding: 8px;
   }  
@@ -200,7 +200,7 @@ hr.light-100 {
     padding: .2rem;
   }
   
-  .carousel-caption.btn {
+  .carousel-caption .btn {
     width: 100px;  
     font-size: 90%;
     padding: 4px 8px;
@@ -211,7 +211,6 @@ hr.light-100 {
     padding: .7rem;
   }
 }
-
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
