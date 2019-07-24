@@ -44,15 +44,15 @@
 </nav>
 
 <!--- Image Slider -->
-<div id="slides" class="carousel slide">
+<div id="slides" class="carousel slide" data-ride="carousel">
 	<ul class="carousel-indicators">
 		<li data-target="#slides" data-slide-to="0" class="active"></li>
 		<li data-target="#slides" data-slide-to="1"></li>
 		<li data-target="#slides" data-slide-to="2"></li>
 	</ul>
-	<div class="class carousel-inner">
+	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="img/background.png" alt="">
+			<img src="img/background.png">
 			<div class="carousel-caption">
 				<h1 class="display-2">Bootstrap</h1>
 				<h3>Complete Website Layout</h3>
@@ -134,17 +134,71 @@
 </div>	
 </div>
 
+<hr class="my-4">
 <!--- Fixed background -->
-
-
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed"></div>
+	</div>
+</figure>
 <!--- Emoji Section -->
-
+<button class="fun" data-toggle="collapse" data-target="#emoji">click for fun</button>
+<div id="emoji" class="collapse">
+<div class="container-fluid padding">	
+<div class="row text-center">
+	<div class="col-sm-6 col-md-3"><img src="img/gif/panda.gif" alt="" class="gif"></div>
+	<div class="col-sm-6 col-md-3"><img src="img/gif/poo.gif" alt="" class="gif"></div>
+	<div class="col-sm-6 col-md-3"><img src="img/gif/unicorn.gif" alt="" class="gif"></div>
+	<div class="col-sm-6 col-md-3"><img src="img/gif/chicken.gif" alt="" class="gif"></div>
+</div>	
+</div>
+</div>
   
 <!--- Meet the team -->
-
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+<div class="col-12">
+<h1 class="display-">Meet the Team</h1>
+<hr>	
+</div>	
+</div>	
+</div>
 
 <!--- Cards -->
-
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card"><img src="img/team1.png" alt="" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">John Doe</h4>
+					<p class="card-text">John is an Internet entrepreneur with  almost 20 years of experience.</p>
+					<a href="" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+				
+			</div>	
+		</div>	
+		<div class="col-md-4">
+			<div class="card"><img src="img/team2.png" alt="" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Mary Jo</h4>
+					<p class="card-text">Mary is an designer with  almost 10 years of digital design experience.</p>
+					<a href="" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+				
+			</div>	
+		</div>	
+		<div class="col-md-4">
+			<div class="card"><img src="img/team3.png" alt="" class="card-img-top">
+				<div class="card-body">
+					<h4 class="card-title">Phil Ho</h4>
+					<p class="card-text">Phil is a developer with over 5 years od web development experience.</p>
+					<a href="" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+				
+			</div>	
+		</div>	
+	</div>	
+</div>
 
 <!--- Two Column Section -->
 
